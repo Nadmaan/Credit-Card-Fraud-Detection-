@@ -22,3 +22,9 @@ The data set includes credit card transactions made by European cardholders over
 9. Oversampling with RandomOverSampler with StratifiedKFold Cross Validation¶
 10. Hyperparameter Tuning
 11. Print the important features of the best model to understand the dataset
+
+# Results 
+1. In the oversample cases, of all the models we build found that the XGBOOST model with Random Oversampling with StratifiedKFold CV gave us the best accuracy and ROC on oversampled data. Post that we performed hyperparameter tuning and got the below metrices :
+XGboost roc_value: 0.9815403079438694 XGBoost threshold: 0.01721232570707798
+
+2. Of all the models we created we found Logistic Regression with L2 Regularisation for StratifiedKFold cross validation (without any oversampling or undersampling) gave us the best result.
